@@ -1,7 +1,5 @@
 import { useRouter } from 'next/router';
-
-
-
+import { getFilteredEvents } from '../../dummy-data';
 
 function FilteredEventsPage() {
     const router = useRouter();
@@ -26,6 +24,11 @@ function FilteredEventsPage() {
     ) {
         return <p>Invalid filter.  Please adjust your values.</p>
     }
+
+    const filteredEvents = getFilteredEvents({
+        year: numYear,
+        month: numMonth,
+    });
 
     return (
         <div>
