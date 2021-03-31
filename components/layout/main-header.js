@@ -12,7 +12,7 @@ function MainHeader() {
             <nav className={classes.navigation}>
                 <ul>
                     <li>
-                        <Link href='/events'>Browse All Events</Link>
+                        <Link href='/events'>Browse All Events Listed</Link>
                     </li>
                 </ul>
             </nav>
