@@ -18,7 +18,6 @@ function AllEventsPage() {
         <Fragment>
             <EventsSearch onSearch={findEventsHandler} />
             <EventList items={events} />
-
         </Fragment>
     )
 }
