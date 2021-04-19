@@ -32,7 +32,6 @@ function FilteredEventsPage(props) {
     if (!loadedEvents) {
         return <p className='center'>Loading...</p>;
     }
-    const earlyBird = 0;
     const filteredYear = filteredData[0];
     const filteredMonth = filteredData[1];
 
