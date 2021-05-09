@@ -13,7 +13,7 @@ function HomePage(props) {
         </div>
     )
 }
-
+// get static props 
 export async function getStaticProps(context) {
     const featuredEvents = await getFeaturedEvents()
     return {
